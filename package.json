@@ -5,8 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+<<<<<<< HEAD
     "build": "tsc -b && vite build",
     "lint": "oxlint src",
+=======
+    "build": "vite build",
+    "lint": "oxlint",
+>>>>>>> origin/main
     "preview": "vite preview"
   },
   "dependencies": {
@@ -19,7 +24,10 @@
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.1.2",
     "oxlint": "^1.90.0",
+<<<<<<< HEAD
     "typescript": "^5.9.3",
+=======
+>>>>>>> origin/main
     "vite": "^8.3.6"
   }
 }
